@@ -13,6 +13,7 @@ provider "aws" {
 }
 
 module "scalr_dynamic_vpc_dns" {
+#	source  = "gitgub/my-repo/scalr_dynamic_vpc_dns/aws"
 	source  = "my.scalr.com/acc-sscctbisjkl35b8/scalr_dynamic_vpc_dns/aws"
 	version = "1.0.0"
 
